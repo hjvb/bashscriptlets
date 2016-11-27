@@ -1,0 +1,12 @@
+#!/bin/bash
+# Script always seems togo directly to echo
+#This is a script that monitors the existence of a process
+# usage: <scriptname> <process>
+while ps aux | grep $1 | grep -v grep > /dev/tty11
+do
+   sleep 5
+done
+
+echo you proces has stopped
+logger $1 is no longer present
+mail -s "process $1 has stopped" root < .

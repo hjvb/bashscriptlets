@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+#This is a script that greets the world
+# usage ./hello
+for (( COUNTER=100; COUNTER>1; COUNTER-- )); do
+	echo $COUNTER
+done
+exit 0 

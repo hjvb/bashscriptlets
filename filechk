@@ -1,0 +1,16 @@
+#!/bin/bash
+# Run this script with one argument
+# the goal is to find out if the argument is a file or a directory
+
+clear
+
+if [ -f $1 ]
+then
+   echo "$1 is a file" 
+elif [ -d $1 ]
+then
+   echo "$1 is a directory" 
+else
+   echo "I do not know what that is" 
+fi
+exit 0 
