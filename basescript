@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+#This is a script that greets the world
+# usage ./hello
+
+clear
+#enter script here
+exit 0 

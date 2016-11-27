@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+#This is a script that greets the world
+# usage ./hello
+
+clear
+for i in "$@"
+do
+   echo $i
+done
+exit 0 

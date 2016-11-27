@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+#This is a script that greets the world
+# usage
+
+useradd $1
+useradd $2
+useradd $3
+
+exit 0 
